@@ -6,7 +6,7 @@ public class Main {
         int celsiumValue = -5;
         float fahrenValue = ((celsiumValue * 9)/5)+32F;
         float kelvinValue = (float) (celsiumValue + 273.16);
-        int sideA = 10;
+        int sideA = 5;
         int sideB = 2;
         int areaTr = (sideA * sideB)/2;
 
