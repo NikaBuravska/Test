@@ -1,3 +1,5 @@
+package FirstTask;
+
 public class Main {
     public static void main(String[] args) {
 
@@ -10,14 +12,10 @@ public class Main {
         int sideB = 2;
         int areaTr = (sideA * sideB)/2;
 
-
-
         System.out.println(celsiumValue+" "+"Celsius");
         System.out.println(fahrenValue+" "+"Fahrenheit");
         System.out.println(kelvinValue+" "+"Kelvin");
         System.out.println(areaTr + " "+"Triange's area");
-
-
 
     }
 }
