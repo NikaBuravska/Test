@@ -1,4 +1,4 @@
-package MonthTask;
+package monthtask;
 
 public class PrintMonthInWordSwitch {
     public static void main(String[] args) {
@@ -41,7 +41,7 @@ public class PrintMonthInWordSwitch {
             case 12:
                 System.out.println("DEC");
                 break;
-            default:
+                default:
             System.out.println("Not a valid month");
         }
     }

@@ -1,4 +1,5 @@
-package TriangleTask;
+package triangletask;
+
 
 import java.util.Scanner;
 public class Triangle {
@@ -14,12 +15,16 @@ public class Triangle {
         System.out.println("Enter 3 side: ");
         int side3 = myObject.nextInt();
 
-
-        if (side1 == side2 && side1 == side3 && side2 == side3) {
+        if (side1 == side2) {
             System.out.println("Triangle is isosceles");
-        } else {
+        }  else if (side1 == side3) {
+            System.out.println("Triangle is isosceles");
+        }  else if (side2 == side3){
+            System.out.println("Triangle is isosceles");
+        }  else {
             System.out.println("Triangle is not isosceles");
-        }
+        };
+
         myObject.close();
 
     }

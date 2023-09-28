@@ -1,15 +1,14 @@
-
-package CheckOdd;
+package checkodd;
 import java.util.Scanner;
 
 public class CheckOddEven {
     public static void main (String [] args){
 
-        Scanner myObject = new Scanner(System.in);  //cтворили об'єкт сканера
+        Scanner myScanner = new Scanner(System.in);
         int number;
 
         System.out.println("Enter Number: ");
-        number = myObject.nextInt();
+        number = myScanner.nextInt();
 
         if(number % 2 == 0){
             System.out.println("It is Even Number");
@@ -18,7 +17,7 @@ public class CheckOddEven {
         }
 
         System.out.println("BYE");
-        myObject.close();
+        myScanner.close();
 
     }
 

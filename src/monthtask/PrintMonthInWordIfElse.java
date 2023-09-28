@@ -1,4 +1,4 @@
-package MonthTask;
+package monthtask;
 
 public class PrintMonthInWordIfElse {
     public static void main(String[] args) {
