@@ -32,5 +32,6 @@ bin/
 # Target folder
 target/
 allure-results/
-archetype-resources
-maven
+archetype-resources/
+maven/
+
