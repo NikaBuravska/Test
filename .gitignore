@@ -29,3 +29,6 @@ bin/
 .DS_Store
 .idea
 *.iml
+# Target folder
+target/
+allure-results/
