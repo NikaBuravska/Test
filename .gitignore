@@ -30,7 +30,7 @@ bin/
 .idea
 *.iml
 # Target folder
-target/
-allure-results/
+
+
 
 
